@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin-block-end: 0;
+}
+:root {
+        --main-bg-color: #0d96fb;
+      }
+header{
+    background-color:var(--main-bg-color);
+    
+    
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+nav{
+    display: flex;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    height: 57px;
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+
+
+}
+nav ul li a:hover{
+    
+    /* color: cornflowerblue; */
+    font-style:italic;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+  
+}
+.logo img{
+    width: 133px;
+    padding: 19px 48px;
+}
+.search{
+    display:flex;
+    align-items: center;
+  
+
+}
+.search input{
+    width: 486px;
+    text-align: center;
+    height: 29px;
+    margin: 0px 25px;
+    /* border-radius: 5px; */
+}
+.search button{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+     min-height: calc(100vh - 57px - 12vh);  /*for complete one page (100vh -headerheight-footerheight) */
+}
+.slider{
+    margin: 5px 0px;
+     /*   to prevent the overflow of picture */
+
+    
+    
+}
+.card{
+    /* background-color: var(--main-bg-color); */
+    width: 215vh;
+    margin: 0px 55px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+}
+.cardss{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.card h2{
+    font-family: 'Roboto', sans-serif;
+}
+.card-item{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    flex-direction: column;
+    width: 12vh;
+    padding: 0px 95px;
+    
+}
+
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
